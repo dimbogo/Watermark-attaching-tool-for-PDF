@@ -16,6 +16,6 @@ def pdf_watermarker(pdf_file, watermark):
     with open('new_file.pdf', "wb") as outputStream:
         output.write(outputStream)
 
-pdf_watermarker(inputs[1], inputs[2])
+pdf_watermarker(inputs[0], inputs[1])
 
 
